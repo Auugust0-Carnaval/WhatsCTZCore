@@ -27,6 +27,7 @@ const log = {
 
 app.use(cors({
     origin: [
+        'http://localhost:8080',
         'http://localhost:3001',
         'https://ctzbuilder.onrender.com',
         'http://localhost:3000'
